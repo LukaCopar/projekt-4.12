@@ -1,0 +1,26 @@
+.side-menu{
+
+	width: 60px;
+	background-color: #3b2f61;
+
+	position: fixed;
+	left: 0;
+	height: 100vh;
+	transition: width .1s linear;
+
+	&:hover{
+		width:287px;
+		transition: width .2s linear;
+	}
+
+	.item-holder{
+		margin-top: 30vh;
+		margin-left: 5px;
+	}
+
+	.link-item{
+		color: white;
+		padding-top: 30px;
+	}
+	
+}
